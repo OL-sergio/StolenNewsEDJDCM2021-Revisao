@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "StolenNewsEDJDCM2021-Revisão"
