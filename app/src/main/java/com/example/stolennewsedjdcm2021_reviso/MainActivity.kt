@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
 
             if ((articles[position].urlToImage?:"").contains("http")){
                 Backend.getBitmapFromUrl(articles[position].urlToImage!!){
-                    imageViewPhoto.setImageBitmap(it)
+                    //imageViewPhoto.setImageBitmap(it)
                 }
 
             }
